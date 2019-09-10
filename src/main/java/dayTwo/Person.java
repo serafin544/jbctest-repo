@@ -7,8 +7,8 @@ public class Person {
 
         //
 
-        String s = scan.nextLine();
-        scan.nextLine();
+     //   String s = scan.nextLine();
+       // scan.nextLine();
         //My own versions
 
       /*  int carSpeed = 40;
