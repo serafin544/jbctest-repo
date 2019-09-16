@@ -1,4 +1,7 @@
 package necklaceShop;
+//Sloppy work
+//just got it done 9/16
+
 import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
 import java.util.Random;

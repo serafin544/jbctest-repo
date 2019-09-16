@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e689a4-13a3-40e4-8daa-d16549bd909f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/necklaceShop/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/necklaceShop/necklace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/talkingPets/mainpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/talkingPets/pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/testMain00.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sciCalc/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sciCalc/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weekendhomework/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weekendhomework/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weekendhomework/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/necklaceShop/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/necklaceShop/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567703454072</updated>
     </task>
+    <task id="LOCAL-00001" summary="another one">
+      <created>1568664853407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568664853407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +101,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="another one" />
+    <option name="LAST_COMMIT_MESSAGE" value="another one" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaprojects$main.ic" NAME="main Coverage Results" MODIFIED="1568664295047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
