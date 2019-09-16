@@ -1,12 +1,14 @@
 /*
 Serafin Escobar
-*/
+
+
 package weekendhomework;
 
 
 
 public class main {
     public static void main(String[] args) {
+
 
         System.out.println("Random only odd number print");
         int randInt  = (int)(50 * Math.random());
@@ -34,6 +36,7 @@ public class main {
     public static String squares(){
 
         String result = " ";
+        result.equalsIgnoreCase();
         for(int i = 1; i <= 10; i++ ){
             int x = i;
             System.out.println(x*x);
@@ -61,3 +64,4 @@ public class main {
         return newCharsString = String.copyValueOf(lns);
     }
 }
+*/

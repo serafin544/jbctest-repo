@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e689a4-13a3-40e4-8daa-d16549bd909f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/serafin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dayTwo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weekendhomework/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/necklaceShop/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/necklaceShop/necklace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/talkingPets/mainpet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/talkingPets/pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/testMain00.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/slickTalkMachine/slickMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/slickTalkMachine/slickMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sciCalc/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sciCalc/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weekendhomework/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weekendhomework/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weekendhomework/main.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -55,65 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Main99b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nineninebottles.Main99b" />
-      <module name="jbctest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nineninebottles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dayTwo.Person" />
-      <module name="jbctest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dayTwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weekendhomework.main" />
+      <option name="MAIN_CLASS_NAME" value="necklaceShop.main" />
       <module name="jbctest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="weekendhomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="slickMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slickTalkMachine.slickMain" />
-      <module name="jbctest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slickTalkMachine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dayOne.test" />
-      <module name="jbctest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dayOne.*" />
+          <option name="PATTERN" value="necklaceShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +73,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Main99b" />
-        <item itemvalue="Application.slickMain" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +101,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javaprojects$main.ic" NAME="main Coverage Results" MODIFIED="1568664295047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>necklaceShop.*</FILTER>
+    </SUITE>
   </component>
 </project>
