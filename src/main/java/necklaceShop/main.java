@@ -29,8 +29,10 @@ public class main {
                 fillUp();
             }
         }else{
-            input -=1;
-            System.out.println(buy(inventory[input]));
+            System.out.println(buy(inventory[input - 1]));
+            /*for(int i = 0; i < inventory.length; i++){
+                System.out.println(inventory[i]);
+            }*/
         }
 
 
@@ -43,13 +45,14 @@ public class main {
     public static void fillUp(){
         System.out.println("New inventory has arrived!!");
         Random rand = new Random();
-        int r = rand.nextInt(10000);
-        int r2 = rand.nextInt(1000000000);
+       /* int r = rand.nextInt(10000);
+        int r2 = rand.nextInt(1000000000);*/
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
         LocalDate localDate = LocalDate.now();
         for(int i = 0; i < inventory.length; i++){
             String brand = "Necklace" + i;
-
+            int r = rand.nextInt(10000);
+            int r2 = rand.nextInt(1000000000);
             String td = dtf.format(localDate);
             inventory[i] = new necklace(brand,r,r2,td);
 
@@ -57,9 +60,10 @@ public class main {
 
     }
     public static String buy(necklace n){
-        n.setBrand("BOUGHT");
-        n.setPrice(-0.00);
-        String bought = "Congrats you have bought it";
+        necklace tmp = new necklace("BOUGHT",0.00,n.itemID,"SOLD TODAY");
+       //n = tmp;
+        String bought = "Congrats you have bought it" + n;
+
         return bought;
     }
 
